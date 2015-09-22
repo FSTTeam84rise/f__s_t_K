@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Project\Android\iLoveKara\libmaterial\src\main\res"><file name="black_gradient" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable\black_gradient.xml" qualifiers="" type="drawable"/><file name="white_gradient" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable\white_gradient.xml" qualifiers="" type="drawable"/><file name="ic_arrow_drop_down_white_24dp" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-hdpi\ic_arrow_drop_down_white_24dp.png" qualifiers="hdpi" type="drawable"/><file name="ic_arrow_drop_up_white_24dp" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-hdpi\ic_arrow_drop_up_white_24dp.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_arrow_drop_down_white_24dp" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-mdpi\ic_arrow_drop_down_white_24dp.png" qualifiers="mdpi" type="drawable"/><file name="ic_arrow_drop_up_white_24dp" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-mdpi\ic_arrow_drop_up_white_24dp.png" qualifiers="mdpi" type="drawable"/><file name="ic_launcher" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="ic_arrow_drop_down_white_24dp" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-xhdpi\ic_arrow_drop_down_white_24dp.png" qualifiers="xhdpi" type="drawable"/><file name="ic_arrow_drop_up_white_24dp" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-xhdpi\ic_arrow_drop_up_white_24dp.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="ic_arrow_drop_down_white_24dp" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-xxhdpi\ic_arrow_drop_down_white_24dp.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_arrow_drop_up_white_24dp" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-xxhdpi\ic_arrow_drop_up_white_24dp.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_launcher" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi" type="drawable"/><file name="ic_arrow_drop_down_white_24dp" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-xxxhdpi\ic_arrow_drop_down_white_24dp.png" qualifiers="xxxhdpi" type="drawable"/><file name="ic_arrow_drop_up_white_24dp" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\drawable-xxxhdpi\ic_arrow_drop_up_white_24dp.png" qualifiers="xxxhdpi" type="drawable"/><file name="activity_material_navigation_drawer" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\layout\activity_material_navigation_drawer.xml" qualifiers="" type="layout"/><file name="activity_material_navigation_drawer_customheader" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\layout\activity_material_navigation_drawer_customheader.xml" qualifiers="" type="layout"/><file name="layout_divisor" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\layout\layout_divisor.xml" qualifiers="" type="layout"/><file name="layout_drawer" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\layout\layout_drawer.xml" qualifiers="" type="layout"/><file name="layout_drawer_customheader" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\layout\layout_drawer_customheader.xml" qualifiers="" type="layout"/><file name="layout_material_label" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\layout\layout_material_label.xml" qualifiers="" type="layout"/><file name="layout_material_section" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\layout\layout_material_section.xml" qualifiers="" type="layout"/><file name="layout_material_section_icon" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\layout\layout_material_section_icon.xml" qualifiers="" type="layout"/><file name="layout_material_section_icon_nine_old" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\layout\layout_material_section_icon_nine_old.xml" qualifiers="" type="layout"/><file name="layout_material_section_nine_old" path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\layout\layout_material_section_nine_old.xml" qualifiers="" type="layout"/><file path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\values\attributes.xml" qualifiers=""><declare-styleable name="MaterialRippleLayout">
+        <attr format="color" localization="suggested" name="mrl_rippleColor"/>
+        <attr format="dimension" localization="suggested" name="mrl_rippleDimension"/>
+        <attr format="boolean" localization="suggested" name="mrl_rippleOverlay"/>
+        <attr format="float" localization="suggested" name="mrl_rippleAlpha"/>
+        <attr format="integer" localization="suggested" name="mrl_rippleDuration"/>
+        <attr format="integer" localization="suggested" name="mrl_rippleFadeDuration"/>
+        <attr format="boolean" localization="suggested" name="mrl_rippleHover"/>
+        <attr format="color" localization="suggested" name="mrl_rippleBackground"/>
+        <attr format="boolean" localization="suggested" name="mrl_rippleDelayClick"/>
+        <attr format="boolean" localization="suggested" name="mrl_ripplePersistent"/>
+        <attr format="boolean" localization="suggested" name="mrl_rippleInAdapter"/>
+        <attr format="dimension" localization="suggested" name="mrl_rippleRoundedCorners"/>
+    </declare-styleable></file><file path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\values\colors.xml" qualifiers=""><color name="transparent">#00FFFFFF</color></file><file path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\values\dimens.xml" qualifiers=""><dimen name="sectionSize">14sp</dimen><dimen name="userSpace">164dp</dimen><dimen name="sectionIconHeight">24dp</dimen><dimen name="photoMarginTop">16dp</dimen><dimen name="sectionIconWidth">24dp</dimen><dimen name="labelSize">14sp</dimen><dimen name="statusMargin">0dp</dimen><dimen name="sectionNotificationSize">14sp</dimen><dimen name="drawerWidth">-1dp</dimen></file><file path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\values\integers.xml" qualifiers=""><integer name="DRAWERTYPE_ACCOUNTS">0</integer><integer name="DRAWERTYPE_CUSTOM">2</integer><integer name="DRAWERTYPE_NO_HEADER">3</integer><integer name="DRAWERTYPE_IMAGE">1</integer></file><file path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\values\strings.xml" qualifiers=""><string name="nothing"/></file><file path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\values\styles.xml" qualifiers=""><declare-styleable name="MaterialSection">
+        <attr format="color" name="sectionColorIcon"/>
+        <attr format="color" name="sectionColorText"/>
+        <attr format="color" name="sectionColorNotification"/>
+        <attr format="color" name="sectionBackgroundColorPressed"/>
+        <attr format="color" name="sectionBackgroundColorSelected"/>
+        <attr format="color" name="sectionBackgroundColor"/>
+        <attr format="color" name="sectionRippleColor"/>
+    </declare-styleable><declare-styleable name="MaterialNavigationDrawer">
+        <attr format="integer" name="drawerType"/>
+        <attr format="boolean" name="uniqueToolbarColor"/>
+        <attr format="boolean" name="multipaneSupport"/>
+        <attr format="color" name="drawerColor"/>
+        <attr format="color" name="labelColor"/>
+        <attr format="reference" name="sectionStyle"/>
+        <attr format="reference" name="subheaderStyle"/>
+        <attr format="boolean" name="autoDarkStatusBar"/>
+        <attr format="reference" name="accountStyle"/>
+    </declare-styleable><declare-styleable name="MaterialAccount">
+        <attr format="color" name="titleColor"/>
+        <attr format="color" name="subTitleColor"/>
+        <attr format="reference" name="backgroundGradient"/>
+    </declare-styleable></file><file path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\values\themes.xml" qualifiers=""><style name="MaterialNavigationDrawerTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="drawerColor">#111</item>
+        <item name="uniqueToolbarColor">false</item>
+        <item name="labelColor">#888888</item>
+        <item name="sectionStyle">@style/MaterialSectionTheme</item>
+        <!--<item name="subheaderStyle">@style/MaterialSubheaderTheme</item>-->
+        <item name="accountStyle">@style/MaterialAccountTheme</item>
+        <item name="multipaneSupport">false</item>
+        <item name="autoDarkStatusBar">true</item>
+    </style><style name="MaterialNavigationDrawerTheme.Light.TranslucentKitKatStatusBar" parent="MaterialNavigationDrawerTheme.Light"/><style name="MaterialNavigationDrawerTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="drawerColor">#fafafa</item>
+        <item name="uniqueToolbarColor">false</item>
+        <item name="labelColor">#afafaf</item>
+        <item name="sectionStyle">@style/MaterialSectionTheme.Light</item>
+        <!--<item name="subheaderStyle">@style/MaterialSubheaderTheme.Light</item>-->
+        <item name="accountStyle">@style/MaterialAccountTheme.Light</item>
+        <item name="multipaneSupport">false</item>
+        <item name="autoDarkStatusBar">true</item>
+    </style><style name="MaterialSectionTheme.Light">
+        <item name="sectionColorIcon">#000000</item>
+        <item name="sectionColorText">#000000</item>
+        <item name="sectionColorNotification">#000000</item>
+        <item name="sectionBackgroundColorPressed">#16000000</item>
+        <item name="sectionBackgroundColorSelected">#0A000000</item>
+        <item name="sectionBackgroundColor">#00FFFFFF</item>
+        <item name="sectionRippleColor">#8C8C8C</item>
+    </style><style name="MaterialNavigationDrawerTheme.TranslucentKitKatStatusBar" parent="MaterialNavigationDrawerTheme"/><style name="MaterialNavigationDrawerTheme.Light.DarkActionBar.TranslucentKitKatStatusBar" parent="MaterialNavigationDrawerTheme.Light.DarkActionBar"/><style name="MaterialAccountTheme">
+        <item name="titleColor">#FFF</item>
+        <item name="subTitleColor">#FFF</item>
+        <item name="backgroundGradient">@drawable/black_gradient</item>
+    </style><style name="MaterialSectionTheme">
+        <item name="sectionColorIcon">#FFF</item>
+        <item name="sectionColorText">#FFF</item>
+        <item name="sectionColorNotification">#FFF</item>
+        <item name="sectionBackgroundColorPressed">#16FFFFFF</item>
+        <item name="sectionBackgroundColorSelected">#1AFFFFFF</item>
+        <item name="sectionBackgroundColor">#00FFFFFF</item>
+        <item name="sectionRippleColor">#fafafa</item>
+    </style><style name="MaterialNavigationDrawerTheme.Light.DarkActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="uniqueToolbarColor">false</item>
+        <item name="popupTheme">@style/Base.V21.Theme.AppCompat.Light.Dialog</item>
+        <item name="labelColor">#afafaf</item>
+        <item name="drawerColor">#fafafa</item>
+        <item name="sectionStyle">@style/MaterialSectionTheme.Light</item>
+        <!--<item name="subheaderStyle">@style/MaterialSubheaderTheme.Light</item>-->
+        <item name="accountStyle">@style/MaterialAccountTheme.Light</item>
+        <item name="multipaneSupport">false</item>
+        <item name="autoDarkStatusBar">true</item>
+    </style><style name="MaterialAccountTheme.Light">
+        <item name="titleColor">#FFF</item>
+        <item name="subTitleColor">#FFF</item>
+        <item name="backgroundGradient">@drawable/black_gradient</item>
+    </style></file><file path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\values-v19\dimens.xml" qualifiers="v19"><dimen name="statusMargin">0dp</dimen><dimen name="traslucentPhotoMarginTop">41dp</dimen><dimen name="traslucentStatusMargin">25dp</dimen><dimen name="userSpace">189dp</dimen><dimen name="photoMarginTop">16dp</dimen></file><file path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\values-v19\themes.xml" qualifiers="v19"><style name="MaterialNavigationDrawerTheme.Light.DarkActionBar.TranslucentKitKatStatusBar" parent="MaterialNavigationDrawerTheme.Light.DarkActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style><style name="MaterialNavigationDrawerTheme.TranslucentKitKatStatusBar" parent="MaterialNavigationDrawerTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style><style name="MaterialNavigationDrawerTheme.Light.TranslucentKitKatStatusBar" parent="MaterialNavigationDrawerTheme.Light">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style><style name="MaterialNavigationDrawerTheme.Light.DarkActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="uniqueToolbarColor">false</item>
+        <item name="labelColor">#afafaf</item>
+        <item name="popupTheme">@style/Base.V21.Theme.AppCompat.Light.Dialog</item>
+        <item name="drawerColor">#fafafa</item>
+        <item name="sectionStyle">@style/MaterialSectionTheme.Light</item>
+        <!--<item name="subheaderStyle">@style/MaterialSubheaderTheme.Light</item>-->
+        <item name="accountStyle">@style/MaterialAccountTheme.Light</item>
+        <item name="multipaneSupport">false</item>
+        <item name="autoDarkStatusBar">true</item>
+    </style><style name="MaterialNavigationDrawerTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="drawerColor">#111</item>
+        <item name="uniqueToolbarColor">false</item>
+        <item name="labelColor">#888888</item>
+        <item name="sectionStyle">@style/MaterialSectionTheme</item>
+        <!--<item name="subheaderStyle">@style/MaterialSubheaderTheme</item>-->
+        <item name="accountStyle">@style/MaterialAccountTheme</item>
+        <item name="multipaneSupport">false</item>
+        <item name="autoDarkStatusBar">true</item>
+    </style><style name="MaterialNavigationDrawerTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="drawerColor">#fafafa</item>
+        <item name="uniqueToolbarColor">false</item>
+        <item name="labelColor">#afafaf</item>
+        <item name="sectionStyle">@style/MaterialSectionTheme.Light</item>
+        <!--<item name="subheaderStyle">@style/MaterialSubheaderTheme.Light</item>-->
+        <item name="accountStyle">@style/MaterialAccountTheme.Light</item>
+        <item name="multipaneSupport">false</item>
+        <item name="autoDarkStatusBar">true</item>
+    </style></file><file path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\values-v21\dimens.xml" qualifiers="v21"><dimen name="photoMarginTop">40dp</dimen><dimen name="userSpace">188dp</dimen><dimen name="statusMargin">24dp</dimen></file><file path="C:\Project\Android\iLoveKara\libmaterial\src\main\res\values-v21\themes.xml" qualifiers="v21"><style name="MaterialNavigationDrawerTheme.Light.DarkActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="uniqueToolbarColor">false</item>
+        <item name="popupTheme">@style/Base.V21.Theme.AppCompat.Light.Dialog</item>
+        <item name="drawerColor">#fafafa</item>
+        <item name="labelColor">#afafaf</item>
+        <item name="sectionStyle">@style/MaterialSectionTheme.Light</item>
+       <!-- <item name="subheaderStyle">@style/MaterialSubheaderTheme.Light</item>-->
+        <item name="accountStyle">@style/MaterialAccountTheme.Light</item>
+        <item name="multipaneSupport">false</item>
+        <item name="autoDarkStatusBar">true</item>
+    </style><style name="MaterialNavigationDrawerTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="drawerColor">#111</item>
+        <item name="labelColor">#888888</item>
+        <item name="uniqueToolbarColor">false</item>
+        <item name="sectionStyle">@style/MaterialSectionTheme</item>
+        <!--<item name="subheaderStyle">@style/MaterialSubheaderTheme</item>-->
+        <item name="accountStyle">@style/MaterialAccountTheme</item>
+        <item name="multipaneSupport">false</item>
+        <item name="autoDarkStatusBar">true</item>
+    </style><style name="MaterialNavigationDrawerTheme.Light.TranslucentKitKatStatusBar" parent="MaterialNavigationDrawerTheme.Light"/><style name="MaterialNavigationDrawerTheme.Light.DarkActionBar.TranslucentKitKatStatusBar" parent="MaterialNavigationDrawerTheme.Light.DarkActionBar"/><style name="MaterialNavigationDrawerTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="drawerColor">#fafafa</item>
+        <item name="labelColor">#afafaf</item>
+        <item name="uniqueToolbarColor">false</item>
+        <item name="sectionStyle">@style/MaterialSectionTheme.Light</item>
+        <!--<item name="subheaderStyle">@style/MaterialSubheaderTheme.Light</item>-->
+        <item name="accountStyle">@style/MaterialAccountTheme.Light</item>
+        <item name="multipaneSupport">false</item>
+        <item name="autoDarkStatusBar">true</item>
+    </style><style name="MaterialNavigationDrawerTheme.TranslucentKitKatStatusBar" parent="MaterialNavigationDrawerTheme"/></file></source><source path="C:\Project\Android\iLoveKara\libmaterial\build\generated\res\rs\release"/><source path="C:\Project\Android\iLoveKara\libmaterial\build\generated\res\resValues\release"/></dataSet><dataSet config="release"><source path="C:\Project\Android\iLoveKara\libmaterial\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="MaterialNavigationDrawer"><attr format="integer" name="drawerType"/><attr format="boolean" name="uniqueToolbarColor"/><attr format="boolean" name="multipaneSupport"/><attr format="color" name="drawerColor"/><attr format="color" name="labelColor"/><attr format="reference" name="sectionStyle"/><attr format="reference" name="subheaderStyle"/><attr format="boolean" name="autoDarkStatusBar"/><attr format="reference" name="accountStyle"/></declare-styleable><declare-styleable name="MaterialSection"><attr format="color" name="sectionColorIcon"/><attr format="color" name="sectionColorText"/><attr format="color" name="sectionColorNotification"/><attr format="color" name="sectionBackgroundColorPressed"/><attr format="color" name="sectionBackgroundColorSelected"/><attr format="color" name="sectionBackgroundColor"/><attr format="color" name="sectionRippleColor"/></declare-styleable><declare-styleable name="MaterialRippleLayout"><attr format="color" localization="suggested" name="mrl_rippleColor"/><attr format="dimension" localization="suggested" name="mrl_rippleDimension"/><attr format="boolean" localization="suggested" name="mrl_rippleOverlay"/><attr format="float" localization="suggested" name="mrl_rippleAlpha"/><attr format="integer" localization="suggested" name="mrl_rippleDuration"/><attr format="integer" localization="suggested" name="mrl_rippleFadeDuration"/><attr format="boolean" localization="suggested" name="mrl_rippleHover"/><attr format="color" localization="suggested" name="mrl_rippleBackground"/><attr format="boolean" localization="suggested" name="mrl_rippleDelayClick"/><attr format="boolean" localization="suggested" name="mrl_ripplePersistent"/><attr format="boolean" localization="suggested" name="mrl_rippleInAdapter"/><attr format="dimension" localization="suggested" name="mrl_rippleRoundedCorners"/></declare-styleable><declare-styleable name="MaterialAccount"><attr format="color" name="titleColor"/><attr format="color" name="subTitleColor"/><attr format="reference" name="backgroundGradient"/></declare-styleable></configuration></mergedItems></merger>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.madcyph3r.materialnavigationdrawer" >
+
+   
+    <application>
+    </application>
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" >
+    </uses-sdk>
+
+</manifest>

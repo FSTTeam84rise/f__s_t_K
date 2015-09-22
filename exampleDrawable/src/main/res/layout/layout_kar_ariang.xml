@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutInfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/frameInfo"
+            android:layout_width="170dp"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/layoutMaso"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_w_orange"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtMaso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="00000"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#383837"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgFavorite"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/heart" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imgButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#383837" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutTen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/White"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtTenBH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
