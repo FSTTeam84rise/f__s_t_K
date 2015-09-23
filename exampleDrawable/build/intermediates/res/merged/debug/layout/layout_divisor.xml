@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<View
-xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
-android:layout_height="1dip"
-android:background="?android:attr/listDivider" /><!-- From: file:/C:/Project/Android/iLoveKara/libmaterial/src/main/res/layout/layout_divisor.xml --><!-- From: file:/C:/Project/Android/iLoveKara/exampleDrawable/build/intermediates/exploded-aar/iLoveKara/libmaterial/unspecified/res/layout/layout_divisor.xml -->
