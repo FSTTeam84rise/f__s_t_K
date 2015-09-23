@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/popupPlay"
+        android:icon="@drawable/ic_action_headphones"
+        android:showAsAction="always"
+        android:title="@string/playmusic"
+        android:visible="true"/>
+    <item
+        android:id="@+id/popupUpload"
+        android:icon="@drawable/ic_action_upload"
+        android:showAsAction="always"
+        android:title="@string/uploadmusic"
+        android:visible="true"/>
+    <item
+        android:id="@+id/popupShare"
+        android:icon="@drawable/ic_action_share"
+        android:showAsAction="always"
+        android:title="@string/sharemusic"
+        android:visible="true"/>
+    <item
+        android:id="@+id/popupDelete"
+        android:icon="@drawable/ic_action_cancel"
+        android:showAsAction="always"
+        android:title="@string/deletemusic"
+        android:visible="true"/>
+
+</menu><!-- From: file:/C:/Project/Android/ilovekara/exampleDrawable/src/main/res/menu/main.xml -->
