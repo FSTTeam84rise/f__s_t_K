@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iLoveKara</string>
+    <string name="ilovekara">I Love Kara</string>
+    <string name="action_settings">Settings</string>
+    <string name="msgcloseapp1">Đóng ứng dụng</string>
+    <string name="msgcloseapp">Bạn có chắc chắn muốn thoát?</string>
+    <string name="co">Có</string>
+    <string name="khong">Không</string>
+    <string name="home">Trang chủ</string>
+    <string name="ikara">Tôi hát</string>
+    <string name="mysing">Hãy hát theo cảm xúc của bạn =))</string>
+    <string name="cakhuccuatoi">Ca khúc của tôi</string>
+    <string name="myfavorite">Bài hát yêu thích</string>
+    <string name="singdownload">Video tải về</string>
+    <string name="karaquan">Karaoke Quán</string>
+    <string name="khac">Khác</string>
+    <string name="huongdan">Hướng dẫn</string>
+    <string name="feedback">Góp ý - Nhận xét</string>
+    <string name="about">Thông tin ứng dụng</string>
+    <string name="karaquan5so">Karaoke Ariang 5 số</string>
+    <string name="karaquan6so">Karaoke California 6 số</string>
+    <string name="hot">Ca khúc hot nhất</string>
+    <string name="new1">Ca khúc mới nhất</string>
+    <string name="loading">Đang tải&#8230;</string>
+    <string name="enable_background_audio">Play in background</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="text">Text</string>
+    <string name="logging">Logging</string>
+    <string name="logging_normal">Normal</string>
+    <string name="logging_verbose">Verbose</string>
+    <string name="retry">Retry</string>
+    <string name="off">[off]</string>
+    <string name="on">[on]</string>
+    <string name="drm_error_not_supported">Protected content not supported on API levels below 18</string>
+    <string name="drm_error_unsupported_scheme">This device does not support the required DRM scheme</string>
+    <string name="drm_error_unknown">An unknown DRM error occurred</string>
+    <string name="failed">Playback failed</string>
+    <string name="playmusic">Nghe nhạc</string>
+    <string name="uploadmusic">Đăng tải nhạc</string>
+    <string name="sharemusic">Chia sẽ nhạc</string>
+    <string name="deletemusic">Xóa</string>
+    <string name="danhsachnhac">Danh sách nhạc</string>
+    <string name="baiyeuthich">Bài yêu thích</string>
+
+</resources>

@@ -1,0 +1,5 @@
+include ':androidRecording'
+include ':exoPlayerLib2'
+include ':libmaterial'
+include ':libsSeekBar'
+include ':exampleDrawable'

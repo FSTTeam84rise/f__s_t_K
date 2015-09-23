@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidRecording/androidRecording.iml" filepath="$PROJECT_DIR$/androidRecording/androidRecording.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exampleDrawable/exampleDrawable.iml" filepath="$PROJECT_DIR$/exampleDrawable/exampleDrawable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exoPlayerLib2/exoPlayerLib2.iml" filepath="$PROJECT_DIR$/exoPlayerLib2/exoPlayerLib2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ilovekara.iml" filepath="$PROJECT_DIR$/ilovekara.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libmaterial/libmaterial.iml" filepath="$PROJECT_DIR$/libmaterial/libmaterial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libsSeekBar/libsSeekBar.iml" filepath="$PROJECT_DIR$/libsSeekBar/libsSeekBar.iml" />
+    </modules>
+  </component>
+</project>

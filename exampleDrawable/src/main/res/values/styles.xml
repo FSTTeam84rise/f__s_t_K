@@ -1,0 +1,144 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="MyOwnTheme" parent="MaterialNavigationDrawerTheme.Light.DarkActionBar">
+        <item name="colorPrimary">#8bc34a</item>
+        <item name="colorPrimaryDark">#1C375B</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="drawerColor">#558b2f</item>
+        <!-- use colorPrimaryDark color for the status bar (here dark blue), otherwiese it creates his own dark color -->
+        <item name="autoDarkStatusBar">false</item>
+        <!-- doesn't change the toolbar color on fragment change -->
+        <item name="uniqueToolbarColor">true</item>
+        <item name="sectionStyle">@style/MySectionTheme</item>
+        <item name="accountStyle">@style/MyMaterialAccountTheme</item>
+    </style>
+
+    <style name="MySectionTheme">
+        <item name="sectionColorIcon">#3A74C5</item>
+        <item name="sectionColorText">#3A74C5</item>
+        <item name="sectionColorNotification">#3A74C5</item>
+        <item name="sectionBackgroundColorPressed">#dbcbbc</item>
+        <item name="sectionBackgroundColorSelected">#feacff</item>
+        <item name="sectionBackgroundColor">#b9faff</item>
+        <item name="sectionRippleColor">#f89d54</item>
+    </style>
+
+    <style name="MyMaterialAccountTheme">
+        <item name="titleColor">#f9bd80</item>
+        <item name="subTitleColor">#f9bd80</item>
+        <item name="backgroundGradient">@drawable/red_gradient</item>
+    </style>
+
+    <style name="text_slidingTabTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_slide_title</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/selector_slide_title</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Animations" />
+
+    <!-- PopDownMenu -->
+    <style name="Animations.PopDownMenu" />
+
+    <style name="Animations.PopDownMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+
+    <!-- PopUpMenu -->
+    <style name="Animations.PopUpMenu" />
+
+    <style name="Animations.PopUpMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+
+    <style name="RootTheme" parent="android:Theme.Holo"></style>
+
+    <style name="PlayerTheme" parent="@style/RootTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="DemoButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">40dp</item>
+    </style>
+
+    <style name="DialogWindowTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="dialog_tran" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="dialog_untran" parent="dialog_tran">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="dialog_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@color/Gray</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
